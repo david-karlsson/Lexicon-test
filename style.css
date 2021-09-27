@@ -1,0 +1,42 @@
+.main-header{
+height: 75vh;
+background-color: rgb(250, 85, 112);
+color: whitesmoke;
+margin: 0;
+padding: 0;
+
+
+
+
+}
+
+.main-header span{
+
+    
+display: flex;
+width: 100%;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+height: 50vh;
+}
+
+
+nav{
+    text-transform: uppercase;
+    font-size: 0.5rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul{
+
+    display: flex;
+    text-decoration: none;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+nav ul li{
+    padding: 1rem;
+}
