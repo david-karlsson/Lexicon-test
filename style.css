@@ -85,3 +85,101 @@ nav ul li{
     display: flex;
     justify-content: center;
 }
+
+.gallery{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    background-color: gainsboro;
+    padding: 2rem;
+}
+
+
+.gallery-box{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery-box .fa{
+
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.gallery-box img{
+
+    margin: 1rem;
+    width: 7rem;
+    height: 7rem;
+    border: 2px solid ghostwhite;
+}
+
+.insta-button{
+
+    background-color: ghostwhite;
+    box-shadow: 5px 5px 10px gray;
+    color: gray;
+    padding:0.5rem 1rem;
+    border:1px solid lightgray;
+    margin: 1rem; 
+
+}
+
+
+.Contact{
+
+    padding: 3rem;
+    background-color: rgb(184, 29, 81);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Contact-box{
+    display: flex; 
+    
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+
+.Contact form{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex:1;
+    margin: 1rem;
+}
+
+
+ .Contact form input{
+border-radius: 5px;
+    height: 2rem;
+}
+
+.Contact form textarea{
+    height:5rem;
+    border-radius: 5px;
+}
+
+.Contact form button{
+    background-color: rgb(17, 13, 42);
+    color: floralwhite;
+    height: 2rem;
+   
+}
+
+.Contact span{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    
